@@ -42,7 +42,7 @@ st.title("Customer Lifetime Value (LTV) Calculator 💰")
 
 st.sidebar.header("Input Parameters")
 
-upfront_price = st.sidebar.number_input("Upfront product price ($)", 0, 5000, 300)
+upfront_price = st.sidebar.number_input("Upfront product price ($)", 0, 5000, 30)
 monthly_fee = st.sidebar.number_input("Monthly subscription fee ($)", 0, 500, 30)
 annual_fee_growth = st.sidebar.slider("Annual subscription fee growth rate (%)", 0, 30, 5) / 100
 churn_rate = st.sidebar.slider("Annual churn rate (%)", 0, 50, 10) / 100
