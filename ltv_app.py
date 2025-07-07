@@ -38,7 +38,7 @@ def calculate_ltv(upfront_price, monthly_fee, annual_fee_growth, churn_rate, dis
     return cash_flows, ltv
 
 # Streamlit interface
-st.title("Customer Lifetime Value (LTV) Calculator 💰")
+st.title("e-Nose Customer Lifetime Value (LTV) Calculator 💰")
 
 st.sidebar.header("Input Parameters")
 
