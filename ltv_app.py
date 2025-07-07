@@ -46,7 +46,7 @@ upfront_price = st.sidebar.number_input("Upfront product price ($)", 0, 5000, 30
 monthly_fee = st.sidebar.number_input("Monthly subscription fee ($)", 0, 500, 30)
 annual_fee_growth = st.sidebar.slider("Annual subscription fee growth rate (%)", 0, 30, 5) / 100
 churn_rate = st.sidebar.slider("Annual churn rate (%)", 0, 50, 10) / 100
-discount_rate = st.sidebar.slider("Discount rate (%)", 0, 30, 8) / 100
+discount_rate = st.sidebar.slider("Discount rate (%)", 0, 30, 10) / 100
 
 annual_addon = st.sidebar.number_input("Annual add-on sales ($)", 0, 5000, 100)
 addon_growth = st.sidebar.slider("Annual add-on growth rate (%)", 0, 30, 7) / 100
